@@ -1,5 +1,5 @@
 {
-  "name": "passport-twitter",
+  "name": "@ch4/passport-twitter",
   "version": "1.0.4",
   "description": "Twitter authentication strategy for Passport.",
   "keywords": [
@@ -17,10 +17,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-twitter.git"
+    "url": "git://github.com/ch4/passport-twitter.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-twitter/issues"
+    "url": "http://github.com/ch4/passport-twitter/issues"
   },
   "license": "MIT",
   "licenses": [
@@ -32,6 +32,7 @@
   "main": "./lib",
   "dependencies": {
     "passport-oauth1": "1.x.x",
+    "utils-merge": "^1.0.1",
     "xtraverse": "0.1.x"
   },
   "devDependencies": {
